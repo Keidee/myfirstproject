@@ -1,12 +1,39 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+<style media="screen">
+
+</style>
     <title>My Contancts</title>
   </head>
   <body>
     <h3>Contact me thru my socials</h3>
-    <p><a href="https://www.facebook.com/keith.dotollo" target="_blank">Facebook</a> | <a href="https://www.instagram.com/keithdotollo/" target="_blank">Instagram</a></p>
+    <p><a href="https://www.facebook.com/keith.dotollo" target="_blank"class="fa fa-facebook"></a>
+       <a href="https://www.instagram.com/keithdotollo/" target="_blank"class="fa fa-instagram"></a></p>
     <hr>
     <form action="mailto:keith.dotollo513@gmail.com" method="post" enctype="text/plain">
       <label>Your Name: </label>
@@ -17,6 +44,7 @@
       <textarea name="Message" rows="5" cols="40"></textarea><br>
       <input type="submit" name="">
 
-    </form>
+    </form><br>
+    <button onclick="document.location='index.html'">Home</button>
   </body>
 </html>
